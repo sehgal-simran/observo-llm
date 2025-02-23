@@ -15,7 +15,7 @@ pip install llm-observability
 
 ## Usage
 ```python
-from llm_observability import monitor, trace
+from observo_llm import monitor, trace
 
 @monitor
 @trace

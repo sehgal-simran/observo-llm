@@ -5,7 +5,7 @@ from datetime import datetime
 # Create logs directory if not exists
 LOG_DIR = "logs"
 os.makedirs(LOG_DIR, exist_ok=True)
-LOG_FILE = os.path.join(LOG_DIR, f"llm_observability_{datetime.now().strftime('%Y-%m-%d')}.log")
+LOG_FILE = os.path.join(LOG_DIR, f"observo_llm{datetime.now().strftime('%Y-%m-%d')}.log")
 
 # Configure logging
 logging.basicConfig(

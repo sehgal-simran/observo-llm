@@ -3,7 +3,7 @@ import os
 
 # Default configuration settings
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
-LOG_FILE = os.getenv("LOG_FILE", "llm_observability.log")
+LOG_FILE = os.getenv("LOG_FILE", "observo_llm.log")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "your-openai-api-key")
 
 # Configure logging
