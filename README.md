@@ -10,7 +10,7 @@ LLM Observability is a Python library designed for logging, monitoring, and perf
 
 ## Installation
 ```sh
-pip install llm-observability
+pip install observo-llm
 ```
 
 ## Usage
