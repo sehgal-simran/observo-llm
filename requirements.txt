@@ -1,0 +1,8 @@
+openai
+loguru
+prometheus-client
+opentelemetry-sdk
+opentelemetry-exporter-otlp
+mysql-connector-python
+pandas
+PyPDF2
